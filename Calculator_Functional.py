@@ -45,7 +45,7 @@ print("7.Square of a number")
 
 while True:
     # take input from the user
-    choice = input("Enter choice(1/2/3/4/5/6): ")
+    choice = input("Enter choice(1/2/3/4/5/6/7): ")
 
     # check if choice is one of the four options
     if choice in ('1', '2', '3', '4','5','6', '7'):
@@ -68,10 +68,10 @@ while True:
             print(num1, "%", num2, "=", remainder(num1, num2))
 
         elif choice == '6':
-            print(num1, "//", num2, "=", remainder(num1, num2))
+            print(num1, "//", num2, "=", quotient(num1, num2))
 
         elif choice == '7':
-            print(num1, "**", num2, "=", remainder(num1, num2))
+            print(num1, "**", num2, "=", square(num1, num2))
 
         # check if user wants another calculation
         # break the while loop if answer is no
