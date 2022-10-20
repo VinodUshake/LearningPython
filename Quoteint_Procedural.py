@@ -13,4 +13,4 @@ if int(b) < 0:
 else:
     print("second value is " + b)
 
-sum = int(a) // int(b)
+sum = int(a) ** int(b)

@@ -7,8 +7,8 @@ y = input("enter second input")
 print("second value is" + y)
 # sub the numbers and store the results
 print("results")
-z = (int(x) + int(y))
+z = (int(x) // int(y))
 if z < 0:
-    print(+z)
+    print(z)
 else:
     print(z)
